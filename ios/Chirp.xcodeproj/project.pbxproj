@@ -1151,7 +1151,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hieu.chirprn;
 				PRODUCT_NAME = Chirp;
-				PROVISIONING_PROFILE = "6a022b7e-9634-451d-ba4c-33573ff49ce4";
+				PROVISIONING_PROFILE = "647948d0-3b6b-4070-b416-896f7f1f8f3e";
 				PROVISIONING_PROFILE_SPECIFIER = "Chrip Prod Profile";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1174,7 +1174,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hieu.chirprn;
 				PRODUCT_NAME = Chirp;
-				PROVISIONING_PROFILE = "6a022b7e-9634-451d-ba4c-33573ff49ce4";
+				PROVISIONING_PROFILE = "a8e515e8-3083-4bf5-b56b-030d93a3abae";
 				PROVISIONING_PROFILE_SPECIFIER = "Chrip Prod Profile";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
