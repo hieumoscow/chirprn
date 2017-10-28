@@ -11,6 +11,10 @@
           "expose": "res"
         },
         {
+          "src": "./components/prompt",
+          "expose": "prompt"
+        },
+        {
           "src": "./components/auth",
           "expose": "auth"
         },

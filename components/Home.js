@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import Posts from './Posts';
 import Register from './auth/Register';
-import Prompt from 'react-native-prompt';
+import Prompt from './prompt/Prompt';
 import Global from './utils/Global'
 import { CreatePostAsync } from './utils/RestService'
 
