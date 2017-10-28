@@ -12,4 +12,4 @@ const ChirpApp = StackNavigator({
     Login: { screen: Login },
     Register: { screen: Register },
 });
-AppRegistry.registerComponent('chirprn', () => ChirpApp);
+AppRegistry.registerComponent('Chirp', () => ChirpApp);

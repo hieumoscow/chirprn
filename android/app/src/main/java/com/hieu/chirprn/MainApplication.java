@@ -1,4 +1,4 @@
-package com.chirprn;
+package com.hieu.chirprn;
 
 import android.app.Application;
 
