@@ -650,6 +650,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = B84C73353E;
+						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1136,6 +1137,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = B84C73353E;
@@ -1148,6 +1151,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hieu.chirprn;
 				PRODUCT_NAME = Chirp;
+				PROVISIONING_PROFILE = "6a022b7e-9634-451d-ba4c-33573ff49ce4";
+				PROVISIONING_PROFILE_SPECIFIER = "Chrip Prod Profile";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1156,6 +1161,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B84C73353E;
 				INFOPLIST_FILE = Chirp/Info.plist;
@@ -1167,6 +1174,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hieu.chirprn;
 				PRODUCT_NAME = Chirp;
+				PROVISIONING_PROFILE = "6a022b7e-9634-451d-ba4c-33573ff49ce4";
+				PROVISIONING_PROFILE_SPECIFIER = "Chrip Prod Profile";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
