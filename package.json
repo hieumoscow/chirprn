@@ -7,9 +7,13 @@
 		"test": "jest"
 	},
 	"dependencies": {
+		"mobile-center": "^0.10.0",
+		"mobile-center-analytics": "^0.10.0",
+		"mobile-center-crashes": "^0.10.0",
 		"moment": "^2.19.1",
 		"react": "16.0.0-beta.5",
 		"react-native": "0.49.3",
+		"react-native-code-push": "^5.1.3-beta",
 		"react-navigation": "^1.0.0-beta.15"
 	},
 	"devDependencies": {
