@@ -11,7 +11,9 @@ import Prompt from './prompt/Prompt';
 import Global from './utils/Global'
 import { CreatePostAsync } from './utils/RestService'
 
-export default class Home extends React.Component {
+import codePush from "react-native-code-push";
+
+class Home extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -130,3 +132,10 @@ var styles = StyleSheet.create({
         margin: 20
     }
 });
+
+
+const codePushOptions = { 
+    checkFrequency: codePush.CheckFrequency.ON_APP_RESUME, 
+    installMode: codePush.InstallMode.ON_NEXT_RESUME 
+  }
+export default  codePush(codePushOptions)(Home);
