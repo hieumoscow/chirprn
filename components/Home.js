@@ -13,7 +13,7 @@ import { CreatePostAsync } from './utils/RestService'
 
 import codePush from "react-native-code-push";
 
-class Home extends React.Component {
+export default class Home extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -138,4 +138,4 @@ const codePushOptions = {
     checkFrequency: codePush.CheckFrequency.ON_APP_RESUME, 
     installMode: codePush.InstallMode.ON_NEXT_RESUME 
   }
-export default  codePush(codePushOptions)(Home);
+Home =  codePush(codePushOptions)(Home);
