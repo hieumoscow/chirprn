@@ -29,7 +29,7 @@ export default class Posts extends Component {
     }
   }
 
-  static toDateTimeString(dateStr: string) {
+  static toDateTimeString(dateStr) {
     return moment(new Date(dateStr)).format('lll');
   }
 
